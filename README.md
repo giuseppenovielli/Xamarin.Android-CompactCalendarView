@@ -6,4 +6,4 @@ CompatCalendarView Library Version Binded Version = v3.0.0
 
 Documentation Available https://github.com/SundeepK/CompactCalendarView
 
-Available NuGet https://www.nuget.org/packages/Xamarin.Android.Emojicon/
+Available NuGet On Upload....
