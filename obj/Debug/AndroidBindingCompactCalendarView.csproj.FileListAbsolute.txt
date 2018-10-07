@@ -1,0 +1,12 @@
+/HRCOFFEE Xamarin/AndroidBindingCompactCalendarView/bin/Debug/AndroidBindingCompactCalendarView.dll
+/HRCOFFEE Xamarin/AndroidBindingCompactCalendarView/bin/Debug/AndroidBindingCompactCalendarView.pdb
+/HRCOFFEE Xamarin/AndroidBindingCompactCalendarView/obj/Debug/AndroidBindingCompactCalendarView.csproj.CoreCompileInputs.cache
+/HRCOFFEE Xamarin/AndroidBindingCompactCalendarView/obj/Debug/AndroidBindingCompactCalendarView.dll
+/HRCOFFEE Xamarin/AndroidBindingCompactCalendarView/obj/Debug/AndroidBindingCompactCalendarView.pdb
+/HRCOFFEE Xamarin/AndroidBindingCompactCalendarView/obj/Debug/AndroidBindingCompactCalendarView.csprojAssemblyReference.cache
+C:\Users\Giuseppe Novielli\Desktop\AndroidBindingCompactCalendarView\bin\Debug\AndroidBindingCompactCalendarView.dll
+C:\Users\Giuseppe Novielli\Desktop\AndroidBindingCompactCalendarView\bin\Debug\AndroidBindingCompactCalendarView.pdb
+C:\Users\Giuseppe Novielli\Desktop\AndroidBindingCompactCalendarView\obj\Debug\AndroidBindingCompactCalendarView.csprojAssemblyReference.cache
+C:\Users\Giuseppe Novielli\Desktop\AndroidBindingCompactCalendarView\obj\Debug\AndroidBindingCompactCalendarView.csproj.CoreCompileInputs.cache
+C:\Users\Giuseppe Novielli\Desktop\AndroidBindingCompactCalendarView\obj\Debug\AndroidBindingCompactCalendarView.dll
+C:\Users\Giuseppe Novielli\Desktop\AndroidBindingCompactCalendarView\obj\Debug\AndroidBindingCompactCalendarView.pdb

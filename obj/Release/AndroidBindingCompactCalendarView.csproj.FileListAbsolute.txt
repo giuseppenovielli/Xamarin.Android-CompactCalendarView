@@ -1,0 +1,7 @@
+C:\Users\Giuseppe Novielli\Desktop\AndroidBindingCompactCalendarView\bin\Release\AndroidBindingCompactCalendarView.xml
+C:\Users\Giuseppe Novielli\Desktop\AndroidBindingCompactCalendarView\bin\Release\AndroidBindingCompactCalendarView.dll
+C:\Users\Giuseppe Novielli\Desktop\AndroidBindingCompactCalendarView\bin\Release\AndroidBindingCompactCalendarView.pdb
+C:\Users\Giuseppe Novielli\Desktop\AndroidBindingCompactCalendarView\obj\Release\AndroidBindingCompactCalendarView.csprojAssemblyReference.cache
+C:\Users\Giuseppe Novielli\Desktop\AndroidBindingCompactCalendarView\obj\Release\AndroidBindingCompactCalendarView.csproj.CoreCompileInputs.cache
+C:\Users\Giuseppe Novielli\Desktop\AndroidBindingCompactCalendarView\obj\Release\AndroidBindingCompactCalendarView.dll
+C:\Users\Giuseppe Novielli\Desktop\AndroidBindingCompactCalendarView\obj\Release\AndroidBindingCompactCalendarView.pdb

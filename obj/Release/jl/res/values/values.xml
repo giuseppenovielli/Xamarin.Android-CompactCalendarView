@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr format="enum" name="compactCalendarCurrentDayIndicatorStyle">
+        <enum name="fill_large_indicator" value="1"/>
+        <enum name="no_fill_large_indicator" value="2"/>
+    </attr>
+    <attr format="enum" name="compactCalendarCurrentSelectedDayIndicatorStyle">
+        <enum name="fill_large_indicator" value="1"/>
+        <enum name="no_fill_large_indicator" value="2"/>
+    </attr>
+    <attr format="enum" name="compactCalendarEventIndicatorStyle">
+        <enum name="fill_large_indicator" value="1"/>
+        <enum name="no_fill_large_indicator" value="2"/>
+        <enum name="small_indicator" value="3"/>
+    </attr>
+    <declare-styleable name="CompactCalendarView"><attr format="dimension" name="compactCalendarTextSize"/><attr format="color" name="compactCalendarBackgroundColor"/><attr format="color" name="compactCalendarCurrentDayBackgroundColor"/><attr format="color" name="compactCalendarCurrentDayTextColor"/><attr format="color" name="compactCalendarCurrentSelectedDayBackgroundColor"/><attr format="color" name="compactCalendarCurrentSelectedDayTextColor"/><attr format="color" name="compactCalendarTextColor"/><attr format="color" name="compactCalendarMultiEventIndicatorColor"/><attr format="dimension" name="compactCalendarTargetHeight"/><attr name="compactCalendarEventIndicatorStyle"/><attr name="compactCalendarCurrentDayIndicatorStyle"/><attr name="compactCalendarCurrentSelectedDayIndicatorStyle"/><attr format="boolean" name="compactCalendarDisplayOtherMonthDays"/><attr format="boolean" name="compactCalendarShouldSelectFirstDayOfMonthOnScroll"/><attr format="color" name="compactCalendarOtherMonthDaysTextColor"/></declare-styleable>
+</resources>

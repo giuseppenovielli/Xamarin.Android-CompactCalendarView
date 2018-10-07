@@ -1,0 +1,259 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<api>
+  <package name="com.github.sundeepk.compactcalendarview">
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="AnimationHandler" static="false" visibility="">
+      <method abstract="false" deprecated="not deprecated" final="false" name="isAnimating" native="false" return="boolean" static="false" synchronized="false" visibility="public"></method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="com.github.sundeepk.compactcalendarview.AnimationListener" extends-generic-aware="com.github.sundeepk.compactcalendarview.AnimationListener" final="false" name="AnimationHandler.1" static="false" visibility=""></class>
+    <class abstract="false" deprecated="not deprecated" extends="com.github.sundeepk.compactcalendarview.AnimatorListener" extends-generic-aware="com.github.sundeepk.compactcalendarview.AnimatorListener" final="false" name="AnimationHandler.2" static="false" visibility=""></class>
+    <class abstract="false" deprecated="not deprecated" extends="com.github.sundeepk.compactcalendarview.AnimationListener" extends-generic-aware="com.github.sundeepk.compactcalendarview.AnimationListener" final="false" name="AnimationHandler.3" static="false" visibility=""></class>
+    <class abstract="false" deprecated="not deprecated" extends="com.github.sundeepk.compactcalendarview.AnimatorListener" extends-generic-aware="com.github.sundeepk.compactcalendarview.AnimatorListener" final="false" name="AnimationHandler.4" static="false" visibility=""></class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="AnimationHandler.5" static="false" visibility="">
+      <implements name="android.animation.ValueAnimator.AnimatorUpdateListener" name-generic-aware="android.animation.ValueAnimator.AnimatorUpdateListener"></implements>
+      <method abstract="false" deprecated="not deprecated" final="false" name="onAnimationUpdate" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="animation" type="android.animation.ValueAnimator"></parameter>
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="com.github.sundeepk.compactcalendarview.AnimationListener" extends-generic-aware="com.github.sundeepk.compactcalendarview.AnimationListener" final="false" name="AnimationHandler.6" static="false" visibility=""></class>
+    <class abstract="false" deprecated="not deprecated" extends="com.github.sundeepk.compactcalendarview.AnimationListener" extends-generic-aware="com.github.sundeepk.compactcalendarview.AnimationListener" final="false" name="AnimationHandler.7" static="false" visibility=""></class>
+    <class abstract="true" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="AnimationListener" static="false" visibility="public">
+      <implements name="android.view.animation.Animation.AnimationListener" name-generic-aware="android.view.animation.Animation.AnimationListener"></implements>
+      <constructor deprecated="not deprecated" final="false" name="AnimationListener" static="false" type="com.github.sundeepk.compactcalendarview.AnimationListener" visibility="public"></constructor>
+      <method abstract="false" deprecated="not deprecated" final="false" name="onAnimationEnd" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="animation" type="android.view.animation.Animation"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="onAnimationRepeat" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="animation" type="android.view.animation.Animation"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="onAnimationStart" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="animation" type="android.view.animation.Animation"></parameter>
+      </method>
+    </class>
+    <class abstract="true" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="AnimatorListener" static="false" visibility="public">
+      <implements name="android.animation.Animator.AnimatorListener" name-generic-aware="android.animation.Animator.AnimatorListener"></implements>
+      <constructor deprecated="not deprecated" final="false" name="AnimatorListener" static="false" type="com.github.sundeepk.compactcalendarview.AnimatorListener" visibility="public"></constructor>
+      <method abstract="false" deprecated="not deprecated" final="false" name="onAnimationCancel" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="animation" type="android.animation.Animator"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="onAnimationEnd" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="animation" type="android.animation.Animator"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="onAnimationRepeat" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="animation" type="android.animation.Animator"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="onAnimationStart" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="animation" type="android.animation.Animator"></parameter>
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="true" name="BuildConfig" static="false" visibility="public">
+      <constructor deprecated="not deprecated" final="false" name="BuildConfig" static="false" type="com.github.sundeepk.compactcalendarview.BuildConfig" visibility="public"></constructor>
+      <field deprecated="not deprecated" final="true" name="APPLICATION_ID" static="true" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" value="&quot;com.github.sundeepk.compactcalendarview&quot;" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="true" name="BUILD_TYPE" static="true" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" value="&quot;release&quot;" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="true" name="DEBUG" static="true" transient="false" type="boolean" type-generic-aware="boolean" value="false" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="true" name="FLAVOR" static="true" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" value="&quot;&quot;" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="true" name="VERSION_CODE" static="true" transient="false" type="int" type-generic-aware="int" value="1" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="true" name="VERSION_NAME" static="true" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" value="&quot;1.0&quot;" visibility="public" volatile="false"></field>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="android.view.animation.Animation" extends-generic-aware="android.view.animation.Animation" final="false" name="CollapsingAnimation" static="false" visibility=""></class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="CompactCalendarController" static="false" visibility="">
+      <field deprecated="not deprecated" final="true" name="ANIMATE_INDICATORS" static="true" transient="false" type="int" type-generic-aware="int" value="3" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="true" name="EXPAND_COLLAPSE_CALENDAR" static="true" transient="false" type="int" type-generic-aware="int" value="2" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="true" name="EXPOSE_CALENDAR_ANIMATION" static="true" transient="false" type="int" type-generic-aware="int" value="1" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="true" name="IDLE" static="true" transient="false" type="int" type-generic-aware="int" value="0" visibility="public" volatile="false"></field>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Enum" extends-generic-aware="java.lang.Enum&lt;com.github.sundeepk.compactcalendarview.CompactCalendarController.Direction&gt;" final="true" name="CompactCalendarController.Direction" static="true" visibility="private">
+      <method abstract="false" deprecated="not deprecated" final="false" name="valueOf" native="false" return="java.lang.Enum&lt;com.github.sundeepk.compactcalendarview.CompactCalendarController.Direction&gt;" static="true" synchronized="false" visibility="public">
+        <parameter name="name" type="java.lang.String"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="values" native="false" return="com.github.sundeepk.compactcalendarview.CompactCalendarController.Direction[]" static="true" synchronized="false" visibility="public"></method>
+      <field deprecated="not deprecated" final="true" name="HORIZONTAL" static="true" transient="false" type="com.github.sundeepk.compactcalendarview.CompactCalendarController.Direction" type-generic-aware="com.github.sundeepk.compactcalendarview.CompactCalendarController.Direction" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="true" name="NONE" static="true" transient="false" type="com.github.sundeepk.compactcalendarview.CompactCalendarController.Direction" type-generic-aware="com.github.sundeepk.compactcalendarview.CompactCalendarController.Direction" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="true" name="VERTICAL" static="true" transient="false" type="com.github.sundeepk.compactcalendarview.CompactCalendarController.Direction" type-generic-aware="com.github.sundeepk.compactcalendarview.CompactCalendarController.Direction" visibility="public" volatile="false"></field>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="android.view.View" extends-generic-aware="android.view.View" final="false" name="CompactCalendarView" static="false" visibility="public">
+      <constructor deprecated="not deprecated" final="false" name="CompactCalendarView" static="false" type="com.github.sundeepk.compactcalendarview.CompactCalendarView" visibility="public">
+        <parameter name="context" type="android.content.Context"></parameter>
+      </constructor>
+      <constructor deprecated="not deprecated" final="false" name="CompactCalendarView" static="false" type="com.github.sundeepk.compactcalendarview.CompactCalendarView" visibility="public">
+        <parameter name="context" type="android.content.Context"></parameter>
+        <parameter name="attrs" type="android.util.AttributeSet"></parameter>
+      </constructor>
+      <constructor deprecated="not deprecated" final="false" name="CompactCalendarView" static="false" type="com.github.sundeepk.compactcalendarview.CompactCalendarView" visibility="public">
+        <parameter name="context" type="android.content.Context"></parameter>
+        <parameter name="attrs" type="android.util.AttributeSet"></parameter>
+        <parameter name="defStyleAttr" type="int"></parameter>
+      </constructor>
+      <method abstract="false" deprecated="not deprecated" final="false" name="addEvent" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="event" type="com.github.sundeepk.compactcalendarview.domain.Event"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="addEvent" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="event" type="com.github.sundeepk.compactcalendarview.domain.Event"></parameter>
+        <parameter name="shouldInvalidate" type="boolean"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="addEvents" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="events" type="java.util.List&lt;com.github.sundeepk.compactcalendarview.domain.Event&gt;"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="displayOtherMonthDays" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="displayOtherMonthDays" type="boolean"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getEvents" native="false" return="java.util.List&lt;com.github.sundeepk.compactcalendarview.domain.Event&gt;" static="false" synchronized="false" visibility="public">
+        <parameter name="date" type="java.util.Date"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getEvents" native="false" return="java.util.List&lt;com.github.sundeepk.compactcalendarview.domain.Event&gt;" static="false" synchronized="false" visibility="public">
+        <parameter name="epochMillis" type="long"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getEventsForMonth" native="false" return="java.util.List&lt;com.github.sundeepk.compactcalendarview.domain.Event&gt;" static="false" synchronized="false" visibility="public">
+        <parameter name="date" type="java.util.Date"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getEventsForMonth" native="false" return="java.util.List&lt;com.github.sundeepk.compactcalendarview.domain.Event&gt;" static="false" synchronized="false" visibility="public">
+        <parameter name="epochMillis" type="long"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getFirstDayOfCurrentMonth" native="false" return="java.util.Date" static="false" synchronized="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getHeightPerDay" native="false" return="int" static="false" synchronized="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getWeekNumberForCurrentMonth" native="false" return="int" static="false" synchronized="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="hideCalendar" native="false" return="void" static="false" synchronized="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="hideCalendarWithAnimation" native="false" return="void" static="false" synchronized="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="isAnimating" native="false" return="boolean" static="false" synchronized="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="removeAllEvents" native="false" return="void" static="false" synchronized="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="removeEvent" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="event" type="com.github.sundeepk.compactcalendarview.domain.Event"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="removeEvent" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="event" type="com.github.sundeepk.compactcalendarview.domain.Event"></parameter>
+        <parameter name="shouldInvalidate" type="boolean"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="removeEvents" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="date" type="java.util.Date"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="removeEvents" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="events" type="java.util.List&lt;com.github.sundeepk.compactcalendarview.domain.Event&gt;"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="removeEvents" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="epochMillis" type="long"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="scrollLeft" native="false" return="void" static="false" synchronized="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="scrollRight" native="false" return="void" static="false" synchronized="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setAnimationListener" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="compactCalendarAnimationListener" type="com.github.sundeepk.compactcalendarview.CompactCalendarView.CompactCalendarAnimationListener"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setCalendarBackgroundColor" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="calenderBackgroundColor" type="int"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setCurrentDate" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="dateTimeMonth" type="java.util.Date"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setCurrentDayBackgroundColor" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="currentDayBackgroundColor" type="int"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setCurrentDayIndicatorStyle" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="currentDayIndicatorStyle" type="int"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setCurrentDayTextColor" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="currentDayTextColor" type="int"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setCurrentSelectedDayBackgroundColor" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="currentSelectedDayBackgroundColor" type="int"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setCurrentSelectedDayIndicatorStyle" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="currentSelectedDayIndicatorStyle" type="int"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setCurrentSelectedDayTextColor" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="currentSelectedDayTextColor" type="int"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setDayColumnNames" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="dayColumnNames" type="java.lang.String[]"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setEventIndicatorStyle" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="eventIndicatorStyle" type="int"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setFirstDayOfWeek" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="dayOfWeek" type="int"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setIsRtl" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="isRtl" type="boolean"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setListener" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="listener" type="com.github.sundeepk.compactcalendarview.CompactCalendarView.CompactCalendarViewListener"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setLocale" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="timeZone" type="java.util.TimeZone"></parameter>
+        <parameter name="locale" type="java.util.Locale"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setShouldDrawDaysHeader" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="shouldDrawDaysHeader" type="boolean"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setTargetHeight" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="targetHeight" type="int"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setUseThreeLetterAbbreviation" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="useThreeLetterAbbreviation" type="boolean"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="shouldDrawIndicatorsBelowSelectedDays" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="shouldDrawIndicatorsBelowSelectedDays" type="boolean"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="shouldScrollMonth" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="enableHorizontalScroll" type="boolean"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="shouldSelectFirstDayOfMonthOnScroll" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="shouldSelectFirstDayOfMonthOnScroll" type="boolean"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="showCalendar" native="false" return="void" static="false" synchronized="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="showCalendarWithAnimation" native="false" return="void" static="false" synchronized="false" visibility="public"></method>
+      <field deprecated="not deprecated" final="true" name="FILL_LARGE_INDICATOR" static="true" transient="false" type="int" type-generic-aware="int" value="1" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="true" name="NO_FILL_LARGE_INDICATOR" static="true" transient="false" type="int" type-generic-aware="int" value="2" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="true" name="SMALL_INDICATOR" static="true" transient="false" type="int" type-generic-aware="int" value="3" visibility="public" volatile="false"></field>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="android.view.GestureDetector.SimpleOnGestureListener" extends-generic-aware="android.view.GestureDetector.SimpleOnGestureListener" final="false" name="CompactCalendarView.1" static="false" visibility=""></class>
+    <interface abstract="true" deprecated="not deprecated" final="false" name="CompactCalendarView.CompactCalendarAnimationListener" static="true" visibility="public">
+      <method abstract="true" deprecated="not deprecated" final="false" name="onClosed" native="false" return="void" static="false" synchronized="false" visibility="public"></method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="onOpened" native="false" return="void" static="false" synchronized="false" visibility="public"></method>
+    </interface>
+    <interface abstract="true" deprecated="not deprecated" final="false" name="CompactCalendarView.CompactCalendarViewListener" static="true" visibility="public">
+      <method abstract="true" deprecated="not deprecated" final="false" name="onDayClick" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="java.util.Date"></parameter>
+      </method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="onMonthScroll" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="java.util.Date"></parameter>
+      </method>
+    </interface>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="Events" static="false" visibility=""></class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="EventsContainer" static="false" visibility="public">
+      <constructor deprecated="not deprecated" final="false" name="EventsContainer" static="false" type="com.github.sundeepk.compactcalendarview.EventsContainer" visibility="public">
+        <parameter name="eventsCalendar" type="java.util.Calendar"></parameter>
+      </constructor>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="WeekUtils" static="false" visibility="public">
+      <constructor deprecated="not deprecated" final="false" name="WeekUtils" static="false" type="com.github.sundeepk.compactcalendarview.WeekUtils" visibility="public"></constructor>
+    </class>
+  </package>
+  <package name="com.github.sundeepk.compactcalendarview.comparators">
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="EventComparator" static="false" visibility="public">
+      <implements name="java.util.Comparator" name-generic-aware="java.util.Comparator&lt;com.github.sundeepk.compactcalendarview.domain.Event&gt;"></implements>
+      <constructor deprecated="not deprecated" final="false" name="EventComparator" static="false" type="com.github.sundeepk.compactcalendarview.comparators.EventComparator" visibility="public"></constructor>
+      <method abstract="false" deprecated="not deprecated" final="false" name="compare" native="false" return="int" static="false" synchronized="false" visibility="public">
+        <parameter name="lhs" type="com.github.sundeepk.compactcalendarview.domain.Event"></parameter>
+        <parameter name="rhs" type="com.github.sundeepk.compactcalendarview.domain.Event"></parameter>
+      </method>
+      <method name="compare" return="int" abstract="false" native="false" synchronized="false" static="false" final="false" deprecated="not deprecated" visibility="public">
+        <parameter name="o1" type="java.lang.Object" />
+        <parameter name="o2" type="java.lang.Object" />
+      </method>
+    </class>
+  </package>
+  <package name="com.github.sundeepk.compactcalendarview.domain">
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="Event" static="false" visibility="public">
+      <constructor deprecated="not deprecated" final="false" name="Event" static="false" type="com.github.sundeepk.compactcalendarview.domain.Event" visibility="public">
+        <parameter name="color" type="int"></parameter>
+        <parameter name="timeInMillis" type="long"></parameter>
+      </constructor>
+      <constructor deprecated="not deprecated" final="false" name="Event" static="false" type="com.github.sundeepk.compactcalendarview.domain.Event" visibility="public">
+        <parameter name="color" type="int"></parameter>
+        <parameter name="timeInMillis" type="long"></parameter>
+        <parameter name="data" type="java.lang.Object"></parameter>
+      </constructor>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getColor" native="false" return="int" static="false" synchronized="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getData" native="false" return="java.lang.Object" static="false" synchronized="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getTimeInMillis" native="false" return="long" static="false" synchronized="false" visibility="public"></method>
+    </class>
+  </package>
+</api>

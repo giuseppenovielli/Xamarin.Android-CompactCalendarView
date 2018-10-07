@@ -1,0 +1,2419 @@
+<api
+  api-source="class-parse">
+  <package
+    name="com.github.sundeepk.compactcalendarview"
+    jni-name="com/github/sundeepk/compactcalendarview">
+    <class
+      abstract="false"
+      deprecated="not deprecated"
+      jni-extends="Ljava/lang/Object;"
+      extends="java.lang.Object"
+      extends-generic-aware="java.lang.Object"
+      final="false"
+      name="AnimationHandler"
+      jni-signature="Lcom/github/sundeepk/compactcalendarview/AnimationHandler;"
+      static="false"
+      visibility="">
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="isAnimating"
+        native="false"
+        return="boolean"
+        jni-return="Z"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()Z" />
+    </class>
+    <class
+      abstract="false"
+      deprecated="not deprecated"
+      jni-extends="Lcom/github/sundeepk/compactcalendarview/AnimationListener;"
+      extends="com.github.sundeepk.compactcalendarview.AnimationListener"
+      extends-generic-aware="com.github.sundeepk.compactcalendarview.AnimationListener"
+      final="false"
+      name="AnimationHandler.1"
+      jni-signature="Lcom/github/sundeepk/compactcalendarview/AnimationHandler$1;"
+      static="false"
+      visibility="">
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="onAnimationEnd"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Landroid/view/animation/Animation;)V">
+        <parameter
+          name="animation"
+          type="android.view.animation.Animation"
+          jni-type="Landroid/view/animation/Animation;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="onAnimationStart"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Landroid/view/animation/Animation;)V">
+        <parameter
+          name="animation"
+          type="android.view.animation.Animation"
+          jni-type="Landroid/view/animation/Animation;" />
+      </method>
+    </class>
+    <class
+      abstract="false"
+      deprecated="not deprecated"
+      jni-extends="Lcom/github/sundeepk/compactcalendarview/AnimatorListener;"
+      extends="com.github.sundeepk.compactcalendarview.AnimatorListener"
+      extends-generic-aware="com.github.sundeepk.compactcalendarview.AnimatorListener"
+      final="false"
+      name="AnimationHandler.2"
+      jni-signature="Lcom/github/sundeepk/compactcalendarview/AnimationHandler$2;"
+      static="false"
+      visibility="">
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="onAnimationEnd"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Landroid/animation/Animator;)V">
+        <parameter
+          name="animation"
+          type="android.animation.Animator"
+          jni-type="Landroid/animation/Animator;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="onAnimationStart"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Landroid/animation/Animator;)V">
+        <parameter
+          name="animation"
+          type="android.animation.Animator"
+          jni-type="Landroid/animation/Animator;" />
+      </method>
+    </class>
+    <class
+      abstract="false"
+      deprecated="not deprecated"
+      jni-extends="Lcom/github/sundeepk/compactcalendarview/AnimationListener;"
+      extends="com.github.sundeepk.compactcalendarview.AnimationListener"
+      extends-generic-aware="com.github.sundeepk.compactcalendarview.AnimationListener"
+      final="false"
+      name="AnimationHandler.3"
+      jni-signature="Lcom/github/sundeepk/compactcalendarview/AnimationHandler$3;"
+      static="false"
+      visibility="">
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="onAnimationEnd"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Landroid/view/animation/Animation;)V">
+        <parameter
+          name="animation"
+          type="android.view.animation.Animation"
+          jni-type="Landroid/view/animation/Animation;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="onAnimationStart"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Landroid/view/animation/Animation;)V">
+        <parameter
+          name="animation"
+          type="android.view.animation.Animation"
+          jni-type="Landroid/view/animation/Animation;" />
+      </method>
+    </class>
+    <class
+      abstract="false"
+      deprecated="not deprecated"
+      jni-extends="Lcom/github/sundeepk/compactcalendarview/AnimatorListener;"
+      extends="com.github.sundeepk.compactcalendarview.AnimatorListener"
+      extends-generic-aware="com.github.sundeepk.compactcalendarview.AnimatorListener"
+      final="false"
+      name="AnimationHandler.4"
+      jni-signature="Lcom/github/sundeepk/compactcalendarview/AnimationHandler$4;"
+      static="false"
+      visibility="">
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="onAnimationEnd"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Landroid/animation/Animator;)V">
+        <parameter
+          name="animation"
+          type="android.animation.Animator"
+          jni-type="Landroid/animation/Animator;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="onAnimationStart"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Landroid/animation/Animator;)V">
+        <parameter
+          name="animation"
+          type="android.animation.Animator"
+          jni-type="Landroid/animation/Animator;" />
+      </method>
+    </class>
+    <class
+      abstract="false"
+      deprecated="not deprecated"
+      jni-extends="Ljava/lang/Object;"
+      extends="java.lang.Object"
+      extends-generic-aware="java.lang.Object"
+      final="false"
+      name="AnimationHandler.5"
+      jni-signature="Lcom/github/sundeepk/compactcalendarview/AnimationHandler$5;"
+      static="false"
+      visibility="">
+      <implements
+        name="android.animation.ValueAnimator.AnimatorUpdateListener"
+        name-generic-aware="android.animation.ValueAnimator.AnimatorUpdateListener"
+        jni-type="Landroid/animation/ValueAnimator$AnimatorUpdateListener;" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="onAnimationUpdate"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Landroid/animation/ValueAnimator;)V">
+        <parameter
+          name="animation"
+          type="android.animation.ValueAnimator"
+          jni-type="Landroid/animation/ValueAnimator;" />
+      </method>
+    </class>
+    <class
+      abstract="false"
+      deprecated="not deprecated"
+      jni-extends="Lcom/github/sundeepk/compactcalendarview/AnimationListener;"
+      extends="com.github.sundeepk.compactcalendarview.AnimationListener"
+      extends-generic-aware="com.github.sundeepk.compactcalendarview.AnimationListener"
+      final="false"
+      name="AnimationHandler.6"
+      jni-signature="Lcom/github/sundeepk/compactcalendarview/AnimationHandler$6;"
+      static="false"
+      visibility="">
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="onAnimationEnd"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Landroid/view/animation/Animation;)V">
+        <parameter
+          name="animation"
+          type="android.view.animation.Animation"
+          jni-type="Landroid/view/animation/Animation;" />
+      </method>
+    </class>
+    <class
+      abstract="false"
+      deprecated="not deprecated"
+      jni-extends="Lcom/github/sundeepk/compactcalendarview/AnimationListener;"
+      extends="com.github.sundeepk.compactcalendarview.AnimationListener"
+      extends-generic-aware="com.github.sundeepk.compactcalendarview.AnimationListener"
+      final="false"
+      name="AnimationHandler.7"
+      jni-signature="Lcom/github/sundeepk/compactcalendarview/AnimationHandler$7;"
+      static="false"
+      visibility="">
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="onAnimationEnd"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Landroid/view/animation/Animation;)V">
+        <parameter
+          name="animation"
+          type="android.view.animation.Animation"
+          jni-type="Landroid/view/animation/Animation;" />
+      </method>
+    </class>
+    <class
+      abstract="true"
+      deprecated="not deprecated"
+      jni-extends="Ljava/lang/Object;"
+      extends="java.lang.Object"
+      extends-generic-aware="java.lang.Object"
+      final="false"
+      name="AnimationListener"
+      jni-signature="Lcom/github/sundeepk/compactcalendarview/AnimationListener;"
+      static="false"
+      visibility="public">
+      <implements
+        name="android.view.animation.Animation.AnimationListener"
+        name-generic-aware="android.view.animation.Animation.AnimationListener"
+        jni-type="Landroid/view/animation/Animation$AnimationListener;" />
+      <constructor
+        deprecated="not deprecated"
+        final="false"
+        name="AnimationListener"
+        static="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()V" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="onAnimationEnd"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Landroid/view/animation/Animation;)V">
+        <parameter
+          name="animation"
+          type="android.view.animation.Animation"
+          jni-type="Landroid/view/animation/Animation;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="onAnimationRepeat"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Landroid/view/animation/Animation;)V">
+        <parameter
+          name="animation"
+          type="android.view.animation.Animation"
+          jni-type="Landroid/view/animation/Animation;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="onAnimationStart"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Landroid/view/animation/Animation;)V">
+        <parameter
+          name="animation"
+          type="android.view.animation.Animation"
+          jni-type="Landroid/view/animation/Animation;" />
+      </method>
+    </class>
+    <class
+      abstract="true"
+      deprecated="not deprecated"
+      jni-extends="Ljava/lang/Object;"
+      extends="java.lang.Object"
+      extends-generic-aware="java.lang.Object"
+      final="false"
+      name="AnimatorListener"
+      jni-signature="Lcom/github/sundeepk/compactcalendarview/AnimatorListener;"
+      static="false"
+      visibility="public">
+      <implements
+        name="android.animation.Animator.AnimatorListener"
+        name-generic-aware="android.animation.Animator.AnimatorListener"
+        jni-type="Landroid/animation/Animator$AnimatorListener;" />
+      <constructor
+        deprecated="not deprecated"
+        final="false"
+        name="AnimatorListener"
+        static="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()V" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="onAnimationCancel"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Landroid/animation/Animator;)V">
+        <parameter
+          name="animation"
+          type="android.animation.Animator"
+          jni-type="Landroid/animation/Animator;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="onAnimationEnd"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Landroid/animation/Animator;)V">
+        <parameter
+          name="animation"
+          type="android.animation.Animator"
+          jni-type="Landroid/animation/Animator;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="onAnimationRepeat"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Landroid/animation/Animator;)V">
+        <parameter
+          name="animation"
+          type="android.animation.Animator"
+          jni-type="Landroid/animation/Animator;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="onAnimationStart"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Landroid/animation/Animator;)V">
+        <parameter
+          name="animation"
+          type="android.animation.Animator"
+          jni-type="Landroid/animation/Animator;" />
+      </method>
+    </class>
+    <class
+      abstract="false"
+      deprecated="not deprecated"
+      jni-extends="Ljava/lang/Object;"
+      extends="java.lang.Object"
+      extends-generic-aware="java.lang.Object"
+      final="true"
+      name="BuildConfig"
+      jni-signature="Lcom/github/sundeepk/compactcalendarview/BuildConfig;"
+      static="false"
+      visibility="public">
+      <constructor
+        deprecated="not deprecated"
+        final="false"
+        name="BuildConfig"
+        static="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()V" />
+      <field
+        deprecated="not deprecated"
+        final="true"
+        name="APPLICATION_ID"
+        static="true"
+        synthetic="false"
+        transient="false"
+        type="java.lang.String"
+        type-generic-aware="java.lang.String"
+        jni-signature="Ljava/lang/String;"
+        value="&quot;com.github.sundeepk.compactcalendarview&quot;"
+        visibility="public"
+        volatile="false" />
+      <field
+        deprecated="not deprecated"
+        final="true"
+        name="BUILD_TYPE"
+        static="true"
+        synthetic="false"
+        transient="false"
+        type="java.lang.String"
+        type-generic-aware="java.lang.String"
+        jni-signature="Ljava/lang/String;"
+        value="&quot;release&quot;"
+        visibility="public"
+        volatile="false" />
+      <field
+        deprecated="not deprecated"
+        final="true"
+        name="DEBUG"
+        static="true"
+        synthetic="false"
+        transient="false"
+        type="boolean"
+        type-generic-aware="boolean"
+        jni-signature="Z"
+        value="false"
+        visibility="public"
+        volatile="false" />
+      <field
+        deprecated="not deprecated"
+        final="true"
+        name="FLAVOR"
+        static="true"
+        synthetic="false"
+        transient="false"
+        type="java.lang.String"
+        type-generic-aware="java.lang.String"
+        jni-signature="Ljava/lang/String;"
+        value="&quot;&quot;"
+        visibility="public"
+        volatile="false" />
+      <field
+        deprecated="not deprecated"
+        final="true"
+        name="VERSION_CODE"
+        static="true"
+        synthetic="false"
+        transient="false"
+        type="int"
+        type-generic-aware="int"
+        jni-signature="I"
+        value="1"
+        visibility="public"
+        volatile="false" />
+      <field
+        deprecated="not deprecated"
+        final="true"
+        name="VERSION_NAME"
+        static="true"
+        synthetic="false"
+        transient="false"
+        type="java.lang.String"
+        type-generic-aware="java.lang.String"
+        jni-signature="Ljava/lang/String;"
+        value="&quot;1.0&quot;"
+        visibility="public"
+        volatile="false" />
+    </class>
+    <class
+      abstract="false"
+      deprecated="not deprecated"
+      jni-extends="Landroid/view/animation/Animation;"
+      extends="android.view.animation.Animation"
+      extends-generic-aware="android.view.animation.Animation"
+      final="false"
+      name="CollapsingAnimation"
+      jni-signature="Lcom/github/sundeepk/compactcalendarview/CollapsingAnimation;"
+      static="false"
+      visibility="">
+      <constructor
+        deprecated="not deprecated"
+        final="false"
+        name="CollapsingAnimation"
+        static="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Lcom/github/sundeepk/compactcalendarview/CompactCalendarView;Lcom/github/sundeepk/compactcalendarview/CompactCalendarController;IIZ)V">
+        <parameter
+          name="view"
+          type="com.github.sundeepk.compactcalendarview.CompactCalendarView"
+          jni-type="Lcom/github/sundeepk/compactcalendarview/CompactCalendarView;" />
+        <parameter
+          name="compactCalendarController"
+          type="com.github.sundeepk.compactcalendarview.CompactCalendarController"
+          jni-type="Lcom/github/sundeepk/compactcalendarview/CompactCalendarController;" />
+        <parameter
+          name="targetHeight"
+          type="int"
+          jni-type="I" />
+        <parameter
+          name="targetGrowRadius"
+          type="int"
+          jni-type="I" />
+        <parameter
+          name="down"
+          type="boolean"
+          jni-type="Z" />
+      </constructor>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="applyTransformation"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="protected"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(FLandroid/view/animation/Transformation;)V">
+        <parameter
+          name="interpolatedTime"
+          type="float"
+          jni-type="F" />
+        <parameter
+          name="t"
+          type="android.view.animation.Transformation"
+          jni-type="Landroid/view/animation/Transformation;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="initialize"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(IIII)V">
+        <parameter
+          name="width"
+          type="int"
+          jni-type="I" />
+        <parameter
+          name="height"
+          type="int"
+          jni-type="I" />
+        <parameter
+          name="parentWidth"
+          type="int"
+          jni-type="I" />
+        <parameter
+          name="parentHeight"
+          type="int"
+          jni-type="I" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="willChangeBounds"
+        native="false"
+        return="boolean"
+        jni-return="Z"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()Z" />
+    </class>
+    <class
+      abstract="false"
+      deprecated="not deprecated"
+      jni-extends="Ljava/lang/Object;"
+      extends="java.lang.Object"
+      extends-generic-aware="java.lang.Object"
+      final="false"
+      name="CompactCalendarController"
+      jni-signature="Lcom/github/sundeepk/compactcalendarview/CompactCalendarController;"
+      static="false"
+      visibility="">
+      <field
+        deprecated="not deprecated"
+        final="true"
+        name="ANIMATE_INDICATORS"
+        static="true"
+        synthetic="false"
+        transient="false"
+        type="int"
+        type-generic-aware="int"
+        jni-signature="I"
+        value="3"
+        visibility="public"
+        volatile="false" />
+      <field
+        deprecated="not deprecated"
+        final="true"
+        name="EXPAND_COLLAPSE_CALENDAR"
+        static="true"
+        synthetic="false"
+        transient="false"
+        type="int"
+        type-generic-aware="int"
+        jni-signature="I"
+        value="2"
+        visibility="public"
+        volatile="false" />
+      <field
+        deprecated="not deprecated"
+        final="true"
+        name="EXPOSE_CALENDAR_ANIMATION"
+        static="true"
+        synthetic="false"
+        transient="false"
+        type="int"
+        type-generic-aware="int"
+        jni-signature="I"
+        value="1"
+        visibility="public"
+        volatile="false" />
+      <field
+        deprecated="not deprecated"
+        final="true"
+        name="IDLE"
+        static="true"
+        synthetic="false"
+        transient="false"
+        type="int"
+        type-generic-aware="int"
+        jni-signature="I"
+        value="0"
+        visibility="public"
+        volatile="false" />
+    </class>
+    <class
+      abstract="false"
+      deprecated="not deprecated"
+      jni-extends="Ljava/lang/Enum;"
+      extends="java.lang.Enum"
+      extends-generic-aware="java.lang.Enum&lt;com.github.sundeepk.compactcalendarview.CompactCalendarController.Direction&gt;"
+      final="true"
+      name="CompactCalendarController.Direction"
+      jni-signature="Lcom/github/sundeepk/compactcalendarview/CompactCalendarController$Direction;"
+      static="true"
+      visibility="private">
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="valueOf"
+        native="false"
+        return="com.github.sundeepk.compactcalendarview.CompactCalendarController.Direction"
+        jni-return="Lcom/github/sundeepk/compactcalendarview/CompactCalendarController$Direction;"
+        static="true"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ljava/lang/String;)Lcom/github/sundeepk/compactcalendarview/CompactCalendarController$Direction;">
+        <parameter
+          name="name"
+          type="java.lang.String"
+          jni-type="Ljava/lang/String;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="values"
+        native="false"
+        return="com.github.sundeepk.compactcalendarview.CompactCalendarController.Direction[]"
+        jni-return="[Lcom/github/sundeepk/compactcalendarview/CompactCalendarController$Direction;"
+        static="true"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()[Lcom/github/sundeepk/compactcalendarview/CompactCalendarController$Direction;" />
+      <field
+        deprecated="not deprecated"
+        final="true"
+        name="HORIZONTAL"
+        static="true"
+        synthetic="false"
+        transient="false"
+        type="com.github.sundeepk.compactcalendarview.CompactCalendarController.Direction"
+        type-generic-aware="com.github.sundeepk.compactcalendarview.CompactCalendarController.Direction"
+        jni-signature="Lcom/github/sundeepk/compactcalendarview/CompactCalendarController$Direction;"
+        visibility="public"
+        volatile="false" />
+      <field
+        deprecated="not deprecated"
+        final="true"
+        name="NONE"
+        static="true"
+        synthetic="false"
+        transient="false"
+        type="com.github.sundeepk.compactcalendarview.CompactCalendarController.Direction"
+        type-generic-aware="com.github.sundeepk.compactcalendarview.CompactCalendarController.Direction"
+        jni-signature="Lcom/github/sundeepk/compactcalendarview/CompactCalendarController$Direction;"
+        visibility="public"
+        volatile="false" />
+      <field
+        deprecated="not deprecated"
+        final="true"
+        name="VERTICAL"
+        static="true"
+        synthetic="false"
+        transient="false"
+        type="com.github.sundeepk.compactcalendarview.CompactCalendarController.Direction"
+        type-generic-aware="com.github.sundeepk.compactcalendarview.CompactCalendarController.Direction"
+        jni-signature="Lcom/github/sundeepk/compactcalendarview/CompactCalendarController$Direction;"
+        visibility="public"
+        volatile="false" />
+    </class>
+    <class
+      abstract="false"
+      deprecated="not deprecated"
+      jni-extends="Landroid/view/View;"
+      extends="android.view.View"
+      extends-generic-aware="android.view.View"
+      final="false"
+      name="CompactCalendarView"
+      jni-signature="Lcom/github/sundeepk/compactcalendarview/CompactCalendarView;"
+      static="false"
+      visibility="public">
+      <constructor
+        deprecated="not deprecated"
+        final="false"
+        name="CompactCalendarView"
+        static="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Landroid/content/Context;)V">
+        <parameter
+          name="context"
+          type="android.content.Context"
+          jni-type="Landroid/content/Context;" />
+      </constructor>
+      <constructor
+        deprecated="not deprecated"
+        final="false"
+        name="CompactCalendarView"
+        static="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Landroid/content/Context;Landroid/util/AttributeSet;)V">
+        <parameter
+          name="context"
+          type="android.content.Context"
+          jni-type="Landroid/content/Context;" />
+        <parameter
+          name="attrs"
+          type="android.util.AttributeSet"
+          jni-type="Landroid/util/AttributeSet;" />
+      </constructor>
+      <constructor
+        deprecated="not deprecated"
+        final="false"
+        name="CompactCalendarView"
+        static="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Landroid/content/Context;Landroid/util/AttributeSet;I)V">
+        <parameter
+          name="context"
+          type="android.content.Context"
+          jni-type="Landroid/content/Context;" />
+        <parameter
+          name="attrs"
+          type="android.util.AttributeSet"
+          jni-type="Landroid/util/AttributeSet;" />
+        <parameter
+          name="defStyleAttr"
+          type="int"
+          jni-type="I" />
+      </constructor>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="addEvent"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Lcom/github/sundeepk/compactcalendarview/domain/Event;)V">
+        <parameter
+          name="event"
+          type="com.github.sundeepk.compactcalendarview.domain.Event"
+          jni-type="Lcom/github/sundeepk/compactcalendarview/domain/Event;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="addEvent"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Lcom/github/sundeepk/compactcalendarview/domain/Event;Z)V">
+        <parameter
+          name="event"
+          type="com.github.sundeepk.compactcalendarview.domain.Event"
+          jni-type="Lcom/github/sundeepk/compactcalendarview/domain/Event;" />
+        <parameter
+          name="shouldInvalidate"
+          type="boolean"
+          jni-type="Z" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="addEvents"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ljava/util/List;)V">
+        <parameter
+          name="events"
+          type="java.util.List&lt;com.github.sundeepk.compactcalendarview.domain.Event&gt;"
+          jni-type="Ljava/util/List&lt;Lcom/github/sundeepk/compactcalendarview/domain/Event;&gt;;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="canScrollHorizontally"
+        native="false"
+        return="boolean"
+        jni-return="Z"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(I)Z">
+        <parameter
+          name="direction"
+          type="int"
+          jni-type="I" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="computeScroll"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()V" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="displayOtherMonthDays"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Z)V">
+        <parameter
+          name="displayOtherMonthDays"
+          type="boolean"
+          jni-type="Z" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="getEvents"
+        native="false"
+        return="java.util.List&lt;com.github.sundeepk.compactcalendarview.domain.Event&gt;"
+        jni-return="Ljava/util/List&lt;Lcom/github/sundeepk/compactcalendarview/domain/Event;&gt;;"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(J)Ljava/util/List;">
+        <parameter
+          name="epochMillis"
+          type="long"
+          jni-type="J" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="getEvents"
+        native="false"
+        return="java.util.List&lt;com.github.sundeepk.compactcalendarview.domain.Event&gt;"
+        jni-return="Ljava/util/List&lt;Lcom/github/sundeepk/compactcalendarview/domain/Event;&gt;;"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ljava/util/Date;)Ljava/util/List;">
+        <parameter
+          name="date"
+          type="java.util.Date"
+          jni-type="Ljava/util/Date;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="getEventsForMonth"
+        native="false"
+        return="java.util.List&lt;com.github.sundeepk.compactcalendarview.domain.Event&gt;"
+        jni-return="Ljava/util/List&lt;Lcom/github/sundeepk/compactcalendarview/domain/Event;&gt;;"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(J)Ljava/util/List;">
+        <parameter
+          name="epochMillis"
+          type="long"
+          jni-type="J" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="getEventsForMonth"
+        native="false"
+        return="java.util.List&lt;com.github.sundeepk.compactcalendarview.domain.Event&gt;"
+        jni-return="Ljava/util/List&lt;Lcom/github/sundeepk/compactcalendarview/domain/Event;&gt;;"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ljava/util/Date;)Ljava/util/List;">
+        <parameter
+          name="date"
+          type="java.util.Date"
+          jni-type="Ljava/util/Date;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="getFirstDayOfCurrentMonth"
+        native="false"
+        return="java.util.Date"
+        jni-return="Ljava/util/Date;"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()Ljava/util/Date;" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="getHeightPerDay"
+        native="false"
+        return="int"
+        jni-return="I"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()I" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="getWeekNumberForCurrentMonth"
+        native="false"
+        return="int"
+        jni-return="I"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()I" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="hideCalendar"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()V" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="hideCalendarWithAnimation"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()V" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="isAnimating"
+        native="false"
+        return="boolean"
+        jni-return="Z"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()Z" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="onDraw"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="protected"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Landroid/graphics/Canvas;)V">
+        <parameter
+          name="canvas"
+          type="android.graphics.Canvas"
+          jni-type="Landroid/graphics/Canvas;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="onMeasure"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="protected"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(II)V">
+        <parameter
+          name="parentWidth"
+          type="int"
+          jni-type="I" />
+        <parameter
+          name="parentHeight"
+          type="int"
+          jni-type="I" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="onTouchEvent"
+        native="false"
+        return="boolean"
+        jni-return="Z"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Landroid/view/MotionEvent;)Z">
+        <parameter
+          name="event"
+          type="android.view.MotionEvent"
+          jni-type="Landroid/view/MotionEvent;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="removeAllEvents"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()V" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="removeEvent"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Lcom/github/sundeepk/compactcalendarview/domain/Event;)V">
+        <parameter
+          name="event"
+          type="com.github.sundeepk.compactcalendarview.domain.Event"
+          jni-type="Lcom/github/sundeepk/compactcalendarview/domain/Event;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="removeEvent"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Lcom/github/sundeepk/compactcalendarview/domain/Event;Z)V">
+        <parameter
+          name="event"
+          type="com.github.sundeepk.compactcalendarview.domain.Event"
+          jni-type="Lcom/github/sundeepk/compactcalendarview/domain/Event;" />
+        <parameter
+          name="shouldInvalidate"
+          type="boolean"
+          jni-type="Z" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="removeEvents"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(J)V">
+        <parameter
+          name="epochMillis"
+          type="long"
+          jni-type="J" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="removeEvents"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ljava/util/Date;)V">
+        <parameter
+          name="date"
+          type="java.util.Date"
+          jni-type="Ljava/util/Date;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="removeEvents"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ljava/util/List;)V">
+        <parameter
+          name="events"
+          type="java.util.List&lt;com.github.sundeepk.compactcalendarview.domain.Event&gt;"
+          jni-type="Ljava/util/List&lt;Lcom/github/sundeepk/compactcalendarview/domain/Event;&gt;;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="scrollLeft"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()V" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="scrollRight"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()V" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="setAnimationListener"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Lcom/github/sundeepk/compactcalendarview/CompactCalendarView$CompactCalendarAnimationListener;)V">
+        <parameter
+          name="compactCalendarAnimationListener"
+          type="com.github.sundeepk.compactcalendarview.CompactCalendarView.CompactCalendarAnimationListener"
+          jni-type="Lcom/github/sundeepk/compactcalendarview/CompactCalendarView$CompactCalendarAnimationListener;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="setCalendarBackgroundColor"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(I)V">
+        <parameter
+          name="calenderBackgroundColor"
+          type="int"
+          jni-type="I" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="setCurrentDate"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ljava/util/Date;)V">
+        <parameter
+          name="dateTimeMonth"
+          type="java.util.Date"
+          jni-type="Ljava/util/Date;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="setCurrentDayBackgroundColor"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(I)V">
+        <parameter
+          name="currentDayBackgroundColor"
+          type="int"
+          jni-type="I" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="setCurrentDayIndicatorStyle"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(I)V">
+        <parameter
+          name="currentDayIndicatorStyle"
+          type="int"
+          jni-type="I" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="setCurrentDayTextColor"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(I)V">
+        <parameter
+          name="currentDayTextColor"
+          type="int"
+          jni-type="I" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="setCurrentSelectedDayBackgroundColor"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(I)V">
+        <parameter
+          name="currentSelectedDayBackgroundColor"
+          type="int"
+          jni-type="I" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="setCurrentSelectedDayIndicatorStyle"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(I)V">
+        <parameter
+          name="currentSelectedDayIndicatorStyle"
+          type="int"
+          jni-type="I" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="setCurrentSelectedDayTextColor"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(I)V">
+        <parameter
+          name="currentSelectedDayTextColor"
+          type="int"
+          jni-type="I" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="setDayColumnNames"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="([Ljava/lang/String;)V">
+        <parameter
+          name="dayColumnNames"
+          type="java.lang.String[]"
+          jni-type="[Ljava/lang/String;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="setEventIndicatorStyle"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(I)V">
+        <parameter
+          name="eventIndicatorStyle"
+          type="int"
+          jni-type="I" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="setFirstDayOfWeek"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(I)V">
+        <parameter
+          name="dayOfWeek"
+          type="int"
+          jni-type="I" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="setIsRtl"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Z)V">
+        <parameter
+          name="isRtl"
+          type="boolean"
+          jni-type="Z" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="setListener"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Lcom/github/sundeepk/compactcalendarview/CompactCalendarView$CompactCalendarViewListener;)V">
+        <parameter
+          name="listener"
+          type="com.github.sundeepk.compactcalendarview.CompactCalendarView.CompactCalendarViewListener"
+          jni-type="Lcom/github/sundeepk/compactcalendarview/CompactCalendarView$CompactCalendarViewListener;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="setLocale"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ljava/util/TimeZone;Ljava/util/Locale;)V">
+        <parameter
+          name="timeZone"
+          type="java.util.TimeZone"
+          jni-type="Ljava/util/TimeZone;" />
+        <parameter
+          name="locale"
+          type="java.util.Locale"
+          jni-type="Ljava/util/Locale;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="setShouldDrawDaysHeader"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Z)V">
+        <parameter
+          name="shouldDrawDaysHeader"
+          type="boolean"
+          jni-type="Z" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="setTargetHeight"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(I)V">
+        <parameter
+          name="targetHeight"
+          type="int"
+          jni-type="I" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="setUseThreeLetterAbbreviation"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Z)V">
+        <parameter
+          name="useThreeLetterAbbreviation"
+          type="boolean"
+          jni-type="Z" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="shouldDrawIndicatorsBelowSelectedDays"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Z)V">
+        <parameter
+          name="shouldDrawIndicatorsBelowSelectedDays"
+          type="boolean"
+          jni-type="Z" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="shouldScrollMonth"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Z)V">
+        <parameter
+          name="enableHorizontalScroll"
+          type="boolean"
+          jni-type="Z" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="shouldSelectFirstDayOfMonthOnScroll"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Z)V">
+        <parameter
+          name="shouldSelectFirstDayOfMonthOnScroll"
+          type="boolean"
+          jni-type="Z" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="showCalendar"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()V" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="showCalendarWithAnimation"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()V" />
+      <field
+        deprecated="not deprecated"
+        final="true"
+        name="FILL_LARGE_INDICATOR"
+        static="true"
+        synthetic="false"
+        transient="false"
+        type="int"
+        type-generic-aware="int"
+        jni-signature="I"
+        value="1"
+        visibility="public"
+        volatile="false" />
+      <field
+        deprecated="not deprecated"
+        final="true"
+        name="NO_FILL_LARGE_INDICATOR"
+        static="true"
+        synthetic="false"
+        transient="false"
+        type="int"
+        type-generic-aware="int"
+        jni-signature="I"
+        value="2"
+        visibility="public"
+        volatile="false" />
+      <field
+        deprecated="not deprecated"
+        final="true"
+        name="SMALL_INDICATOR"
+        static="true"
+        synthetic="false"
+        transient="false"
+        type="int"
+        type-generic-aware="int"
+        jni-signature="I"
+        value="3"
+        visibility="public"
+        volatile="false" />
+    </class>
+    <class
+      abstract="false"
+      deprecated="not deprecated"
+      jni-extends="Landroid/view/GestureDetector$SimpleOnGestureListener;"
+      extends="android.view.GestureDetector.SimpleOnGestureListener"
+      extends-generic-aware="android.view.GestureDetector.SimpleOnGestureListener"
+      final="false"
+      name="CompactCalendarView.1"
+      jni-signature="Lcom/github/sundeepk/compactcalendarview/CompactCalendarView$1;"
+      static="false"
+      visibility="">
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="onDown"
+        native="false"
+        return="boolean"
+        jni-return="Z"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Landroid/view/MotionEvent;)Z">
+        <parameter
+          name="e"
+          type="android.view.MotionEvent"
+          jni-type="Landroid/view/MotionEvent;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="onFling"
+        native="false"
+        return="boolean"
+        jni-return="Z"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Landroid/view/MotionEvent;Landroid/view/MotionEvent;FF)Z">
+        <parameter
+          name="e1"
+          type="android.view.MotionEvent"
+          jni-type="Landroid/view/MotionEvent;" />
+        <parameter
+          name="e2"
+          type="android.view.MotionEvent"
+          jni-type="Landroid/view/MotionEvent;" />
+        <parameter
+          name="velocityX"
+          type="float"
+          jni-type="F" />
+        <parameter
+          name="velocityY"
+          type="float"
+          jni-type="F" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="onLongPress"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Landroid/view/MotionEvent;)V">
+        <parameter
+          name="e"
+          type="android.view.MotionEvent"
+          jni-type="Landroid/view/MotionEvent;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="onScroll"
+        native="false"
+        return="boolean"
+        jni-return="Z"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Landroid/view/MotionEvent;Landroid/view/MotionEvent;FF)Z">
+        <parameter
+          name="e1"
+          type="android.view.MotionEvent"
+          jni-type="Landroid/view/MotionEvent;" />
+        <parameter
+          name="e2"
+          type="android.view.MotionEvent"
+          jni-type="Landroid/view/MotionEvent;" />
+        <parameter
+          name="distanceX"
+          type="float"
+          jni-type="F" />
+        <parameter
+          name="distanceY"
+          type="float"
+          jni-type="F" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="onSingleTapUp"
+        native="false"
+        return="boolean"
+        jni-return="Z"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Landroid/view/MotionEvent;)Z">
+        <parameter
+          name="e"
+          type="android.view.MotionEvent"
+          jni-type="Landroid/view/MotionEvent;" />
+      </method>
+    </class>
+    <interface
+      abstract="true"
+      deprecated="not deprecated"
+      final="false"
+      name="CompactCalendarView.CompactCalendarAnimationListener"
+      jni-signature="Lcom/github/sundeepk/compactcalendarview/CompactCalendarView$CompactCalendarAnimationListener;"
+      static="true"
+      visibility="public">
+      <method
+        abstract="true"
+        deprecated="not deprecated"
+        final="false"
+        name="onClosed"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()V" />
+      <method
+        abstract="true"
+        deprecated="not deprecated"
+        final="false"
+        name="onOpened"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()V" />
+    </interface>
+    <interface
+      abstract="true"
+      deprecated="not deprecated"
+      final="false"
+      name="CompactCalendarView.CompactCalendarViewListener"
+      jni-signature="Lcom/github/sundeepk/compactcalendarview/CompactCalendarView$CompactCalendarViewListener;"
+      static="true"
+      visibility="public">
+      <method
+        abstract="true"
+        deprecated="not deprecated"
+        final="false"
+        name="onDayClick"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ljava/util/Date;)V">
+        <parameter
+          name="p0"
+          type="java.util.Date"
+          jni-type="Ljava/util/Date;" />
+      </method>
+      <method
+        abstract="true"
+        deprecated="not deprecated"
+        final="false"
+        name="onMonthScroll"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ljava/util/Date;)V">
+        <parameter
+          name="p0"
+          type="java.util.Date"
+          jni-type="Ljava/util/Date;" />
+      </method>
+    </interface>
+    <class
+      abstract="false"
+      deprecated="not deprecated"
+      jni-extends="Ljava/lang/Object;"
+      extends="java.lang.Object"
+      extends-generic-aware="java.lang.Object"
+      final="false"
+      name="Events"
+      jni-signature="Lcom/github/sundeepk/compactcalendarview/Events;"
+      static="false"
+      visibility="">
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="equals"
+        native="false"
+        return="boolean"
+        jni-return="Z"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ljava/lang/Object;)Z">
+        <parameter
+          name="o"
+          type="java.lang.Object"
+          jni-type="Ljava/lang/Object;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="hashCode"
+        native="false"
+        return="int"
+        jni-return="I"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()I" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="toString"
+        native="false"
+        return="java.lang.String"
+        jni-return="Ljava/lang/String;"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()Ljava/lang/String;" />
+    </class>
+    <class
+      abstract="false"
+      deprecated="not deprecated"
+      jni-extends="Ljava/lang/Object;"
+      extends="java.lang.Object"
+      extends-generic-aware="java.lang.Object"
+      final="false"
+      name="EventsContainer"
+      jni-signature="Lcom/github/sundeepk/compactcalendarview/EventsContainer;"
+      static="false"
+      visibility="public">
+      <constructor
+        deprecated="not deprecated"
+        final="false"
+        name="EventsContainer"
+        static="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ljava/util/Calendar;)V">
+        <parameter
+          name="eventsCalendar"
+          type="java.util.Calendar"
+          jni-type="Ljava/util/Calendar;" />
+      </constructor>
+    </class>
+    <class
+      abstract="false"
+      deprecated="not deprecated"
+      jni-extends="Ljava/lang/Object;"
+      extends="java.lang.Object"
+      extends-generic-aware="java.lang.Object"
+      final="false"
+      name="WeekUtils"
+      jni-signature="Lcom/github/sundeepk/compactcalendarview/WeekUtils;"
+      static="false"
+      visibility="public">
+      <constructor
+        deprecated="not deprecated"
+        final="false"
+        name="WeekUtils"
+        static="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()V" />
+    </class>
+  </package>
+  <package
+    name="com.github.sundeepk.compactcalendarview.comparators"
+    jni-name="com/github/sundeepk/compactcalendarview/comparators">
+    <class
+      abstract="false"
+      deprecated="not deprecated"
+      jni-extends="Ljava/lang/Object;"
+      extends="java.lang.Object"
+      extends-generic-aware="java.lang.Object"
+      final="false"
+      name="EventComparator"
+      jni-signature="Lcom/github/sundeepk/compactcalendarview/comparators/EventComparator;"
+      static="false"
+      visibility="public">
+      <implements
+        name="java.util.Comparator"
+        name-generic-aware="java.util.Comparator&lt;com.github.sundeepk.compactcalendarview.domain.Event&gt;"
+        jni-type="Ljava/util/Comparator&lt;Lcom/github/sundeepk/compactcalendarview/domain/Event;&gt;;" />
+      <constructor
+        deprecated="not deprecated"
+        final="false"
+        name="EventComparator"
+        static="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()V" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="compare"
+        native="false"
+        return="int"
+        jni-return="I"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Lcom/github/sundeepk/compactcalendarview/domain/Event;Lcom/github/sundeepk/compactcalendarview/domain/Event;)I">
+        <parameter
+          name="lhs"
+          type="com.github.sundeepk.compactcalendarview.domain.Event"
+          jni-type="Lcom/github/sundeepk/compactcalendarview/domain/Event;" />
+        <parameter
+          name="rhs"
+          type="com.github.sundeepk.compactcalendarview.domain.Event"
+          jni-type="Lcom/github/sundeepk/compactcalendarview/domain/Event;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="compare"
+        native="false"
+        return="int"
+        jni-return="I"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="true"
+        synthetic="true"
+        jni-signature="(Ljava/lang/Object;Ljava/lang/Object;)I">
+        <parameter
+          name="p0"
+          type="java.lang.Object"
+          jni-type="Ljava/lang/Object;" />
+        <parameter
+          name="p1"
+          type="java.lang.Object"
+          jni-type="Ljava/lang/Object;" />
+      </method>
+    </class>
+  </package>
+  <package
+    name="com.github.sundeepk.compactcalendarview.domain"
+    jni-name="com/github/sundeepk/compactcalendarview/domain">
+    <class
+      abstract="false"
+      deprecated="not deprecated"
+      jni-extends="Ljava/lang/Object;"
+      extends="java.lang.Object"
+      extends-generic-aware="java.lang.Object"
+      final="false"
+      name="Event"
+      jni-signature="Lcom/github/sundeepk/compactcalendarview/domain/Event;"
+      static="false"
+      visibility="public">
+      <constructor
+        deprecated="not deprecated"
+        final="false"
+        name="Event"
+        static="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(IJ)V">
+        <parameter
+          name="color"
+          type="int"
+          jni-type="I" />
+        <parameter
+          name="timeInMillis"
+          type="long"
+          jni-type="J" />
+      </constructor>
+      <constructor
+        deprecated="not deprecated"
+        final="false"
+        name="Event"
+        static="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(IJLjava/lang/Object;)V">
+        <parameter
+          name="color"
+          type="int"
+          jni-type="I" />
+        <parameter
+          name="timeInMillis"
+          type="long"
+          jni-type="J" />
+        <parameter
+          name="data"
+          type="java.lang.Object"
+          jni-type="Ljava/lang/Object;" />
+      </constructor>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="equals"
+        native="false"
+        return="boolean"
+        jni-return="Z"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ljava/lang/Object;)Z">
+        <parameter
+          name="o"
+          type="java.lang.Object"
+          jni-type="Ljava/lang/Object;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="getColor"
+        native="false"
+        return="int"
+        jni-return="I"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()I" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="getData"
+        native="false"
+        return="java.lang.Object"
+        jni-return="Ljava/lang/Object;"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()Ljava/lang/Object;" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="getTimeInMillis"
+        native="false"
+        return="long"
+        jni-return="J"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()J" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="hashCode"
+        native="false"
+        return="int"
+        jni-return="I"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()I" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="toString"
+        native="false"
+        return="java.lang.String"
+        jni-return="Ljava/lang/String;"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()Ljava/lang/String;" />
+    </class>
+  </package>
+</api>
